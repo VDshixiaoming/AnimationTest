@@ -61,7 +61,7 @@ public class TestActivity extends AppCompatActivity {
                 @Override
                 public void onClick(View view) {
                     if(animation == null)
-                        animation = AnimationsContainer.getInstance(R.array.loading_imgs, 58).createProgressDialogAnim(imageView);
+                        animation = AnimationsContainer.getInstance(R.array.loading_anim, 58).createProgressDialogAnim(imageView);
 
                     if(!switchBtn()){
                         animation.start();
