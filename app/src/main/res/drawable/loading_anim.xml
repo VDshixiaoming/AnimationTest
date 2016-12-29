@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android"
+    android:oneshot="false" >
+
+    <item
+        android:drawable="@drawable/img0"
+        android:duration="17" />
+    <item
+        android:drawable="@drawable/img1"
+        android:duration="17" />
+    <item
+        android:drawable="@drawable/img2"
+        android:duration="17" />
+    <item
+        android:drawable="@drawable/img3"
+        android:duration="17" />
+    <item
+        android:drawable="@drawable/img4"
+        android:duration="17" />
+    <item
+        android:drawable="@drawable/img5"
+        android:duration="17" />
+    <item
+        android:drawable="@drawable/img6"
+        android:duration="17" />
+    <item
+        android:drawable="@drawable/img7"
+        android:duration="17" />
+    <item
+        android:drawable="@drawable/img8"
+        android:duration="17" />
+    <item
+        android:drawable="@drawable/img9"
+        android:duration="17" />
+    <item
+        android:drawable="@drawable/img10"
+        android:duration="17" />
+    <item
+        android:drawable="@drawable/img11"
+        android:duration="17" />
+    <item
+        android:drawable="@drawable/img12"
+        android:duration="17" />
+    <item
+        android:drawable="@drawable/img13"
+        android:duration="17" />
+    <item
+        android:drawable="@drawable/img14"
+        android:duration="17" />
+    <item
+        android:drawable="@drawable/img15"
+        android:duration="17" />
+    <item
+        android:drawable="@drawable/img16"
+        android:duration="17" />
+    <item
+        android:drawable="@drawable/img17"
+        android:duration="17" />
+    <item
+        android:drawable="@drawable/img18"
+        android:duration="17" />
+    <item
+        android:drawable="@drawable/img19"
+        android:duration="17" />
+    <item
+        android:drawable="@drawable/img20"
+        android:duration="17" />
+    <item
+        android:drawable="@drawable/img21"
+        android:duration="17" />
+    <item
+        android:drawable="@drawable/img22"
+        android:duration="17" />
+    <item
+        android:drawable="@drawable/img23"
+        android:duration="17" />
+    <item
+        android:drawable="@drawable/img24"
+        android:duration="17" />
+</animation-list>

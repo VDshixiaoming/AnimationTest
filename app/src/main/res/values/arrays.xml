@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="loading_anim">
+        <item>@drawable/img0</item>
+        <item>@drawable/img1</item>
+        <item>@drawable/img2</item>
+        <item>@drawable/img3</item>
+        <item>@drawable/img4</item>
+        <item>@drawable/img5</item>
+        <item>@drawable/img6</item>
+        <item>@drawable/img7</item>
+        <item>@drawable/img8</item>
+        <item>@drawable/img9</item>
+        <item>@drawable/img10</item>
+        <item>@drawable/img11</item>
+        <item>@drawable/img12</item>
+        <item>@drawable/img13</item>
+        <item>@drawable/img14</item>
+        <item>@drawable/img15</item>
+        <item>@drawable/img16</item>
+        <item>@drawable/img17</item>
+        <item>@drawable/img18</item>
+        <item>@drawable/img19</item>
+        <item>@drawable/img20</item>
+        <item>@drawable/img21</item>
+        <item>@drawable/img22</item>
+        <item>@drawable/img23</item>
+        <item>@drawable/img24</item>
+    </string-array>
+</resources>
