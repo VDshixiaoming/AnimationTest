@@ -4,27 +4,35 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#F5F5F5">
+    <LinearLayout
+        android:id="@+id/loading_area"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:gravity="center"
+        android:layout_centerInParent="true"
+        android:background="@drawable/view_note_bg">
+        <ProgressBar
+            android:id="@+id/imgview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:indeterminateDrawable="@drawable/loading_anim"
+            android:visibility="gone"/>
+    </LinearLayout>
 
     <Button
-        android:id="@+id/normal_anim"
+        android:id="@+id/play_btn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_below="@+id/loading_area"
         android:layout_centerHorizontal="true"
         android:layout_margin="20dp"
-        android:text="普通帧动画"/>
-    <Button
-        android:id="@+id/advance_anim"
+        android:text="START"/>
+    <TextView
+        android:id="@+id/title"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/normal_anim"
-        android:layout_centerHorizontal="true"
-        android:layout_margin="20dp"
-        android:text="优化帧动画"/>
-    <Button
-        android:id="@+id/progressbar_anim"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/advance_anim"
+        android:layout_above="@+id/loading_area"
         android:layout_centerHorizontal="true"
         android:layout_margin="20dp"
         android:text="Progressbar帧动画"/>

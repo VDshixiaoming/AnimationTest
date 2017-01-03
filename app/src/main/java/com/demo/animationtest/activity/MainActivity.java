@@ -10,7 +10,8 @@ import android.widget.Button;
 import com.demo.animationtest.R;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener{
-    private Button normal, advance;
+    private Button normal, advance, progress;
+    Intent intent;
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -18,17 +19,28 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
         normal = (Button) findViewById(R.id.normal_anim);
         advance = (Button) findViewById(R.id.advance_anim);
+        progress = (Button) findViewById(R.id.progressbar_anim);
+
         normal.setOnClickListener(this);
         advance.setOnClickListener(this);
+        progress.setOnClickListener(this);
     }
 
     @Override
     public void onClick(View view) {
-        Intent intent = new Intent(MainActivity.this, TestActivity.class);
-        if(view.getId() == R.id.normal_anim){
-            intent.putExtra("mode", 1);
-        }else {
-            intent.putExtra("mode", 2);
+
+        switch (view.getId()){
+            case R.id.normal_anim:
+                intent = new Intent(MainActivity.this, TestActivity.class);
+                intent.putExtra("mode", 1);
+                break;
+            case R.id.advance_anim:
+                intent = new Intent(MainActivity.this, TestActivity.class);
+                intent.putExtra("mode", 2);
+                break;
+            case R.id.progressbar_anim:
+                intent = new Intent(MainActivity.this, TestProgressbarActivity.class);
+                break;
         }
         startActivity(intent);
     }
