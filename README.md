@@ -1,3 +1,6 @@
+/**
+ * Android帧动画优化
+ */
 # AnimationTest
 Useage
 
