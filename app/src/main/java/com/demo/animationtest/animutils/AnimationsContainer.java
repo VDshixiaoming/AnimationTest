@@ -42,15 +42,15 @@ public class AnimationsContainer {
         this.resId = resId;
         this.FPS = fps;
     }
-    // 从xml中读取资源ID数组
-    private int[] mProgressAnimFrames = getData(resId);
+//    // 从xml中读取资源ID数组
+//    private int[] mProgressAnimFrames = getData(resId);
 
     /**
      * @param imageView
      * @return progress dialog animation
      */
     public FramesSequenceAnimation createProgressDialogAnim(ImageView imageView) {
-        return new FramesSequenceAnimation(imageView, mProgressAnimFrames, FPS);
+        return new FramesSequenceAnimation(imageView, getData(resId), FPS);
     }
 
 
