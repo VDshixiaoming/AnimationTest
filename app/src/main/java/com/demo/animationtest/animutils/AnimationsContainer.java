@@ -34,11 +34,13 @@ public class AnimationsContainer {
     public static AnimationsContainer getInstance(int resId, int fps) {
         if (mInstance == null)
             mInstance = new AnimationsContainer();
+        mInstance.setResId(resId, fps);
         return mInstance;
     }
 
-    public void setResId(int resId){
+    public void setResId(int resId, int fps){
         this.resId = resId;
+        this.FPS = fps;
     }
     // 从xml中读取资源ID数组
     private int[] mProgressAnimFrames = getData(resId);
